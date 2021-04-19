@@ -25,11 +25,11 @@ const randomBG = function(count = 1, image_server = null, image_list = []) {
   }
 
   var parseImage = function(img, size) {
-    // if (img.startsWith('//') || img.startsWith('http')) {
-    //   return img
-        // } else {
+    if ((img+'').startsWith('//') || (img+'').startsWith('http')) {
+      return img
+        } else {
           return 'https://tva'+randomServer+'.sinaimg.cn/'+size+'/'+img
-        // }
+        }
   }
 
   if(count && count > 1) {
@@ -108,11 +108,11 @@ hexo.extend.helper.register('_image_url', function(img, path = '') {
   const { statics } = hexo.theme.config;
   const { post_asset_folder } = hexo.config;
 
-  // if (img.startsWith('//') || img.startsWith('http')) {
+  if ((img+'').startsWith('//') || (img+'').startsWith('http')) {
     return img
-  // } else {
-  //   return url_for.call(this, statics + (post_asset_folder ? path : '') + img)
-  // }
+  } else {
+    return url_for.call(this, statics + (post_asset_folder ? path : '') + img)
+  }
 })
 
 hexo.extend.helper.register('_cover', function(item, num) {

@@ -2,7 +2,6 @@
 title: 多线程与高并发学习笔记（一）
 author: 陈世哲
 top: true
-cover: 'http://47.103.107.233:8088/image/1.jpg'
 categories: java多线程
 tags: 多线程
 sticky: true
