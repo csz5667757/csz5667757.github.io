@@ -1,9 +1,8 @@
----
 title: 深入理解mysql数据库索引及其应用场景
 date: 2021-04-24 10:30:00
 categories:
-- 数据库
-- mysql索引
+ - 数据库
+ - mysql索引
 sticky: true
 top:true
 ---
