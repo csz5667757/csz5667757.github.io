@@ -1,13 +1,10 @@
----
 title: 多线程与高并发学习笔记（一）
 author: assertor
 top: true
 categories: 
-   -java
-   -多线程
+ - [java,多线程] 
 tags: 多线程
 sticky: false
-top: true
 abbrlink: 5868
 date: 2020-4-5 11:25:21
 ---
