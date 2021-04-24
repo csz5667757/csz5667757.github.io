@@ -171,20 +171,20 @@ autoprefixer:
   exclude:
     - '*.min.css'
 
-#algolia:
-#  appId: #Your appId
-#  apiKey: #Your apiKey
-#  adminApiKey: #Your adminApiKey
-#  chunkSize: 5000
-#  indexName: #"shoka"
-#  fields:
-#    - title #必须配置
-#    - path #必须配置
-#    - categories #推荐配置
-#    - content:strip:truncate,0,2000
-#    - gallery
-#    - photos
-#    - tags
+algolia:
+  appId: Y1EUX67YOO
+  apiKey: d38e3c60d348945a8a7b5ff6dc460641
+  adminApiKey: 1f5219de368e95d307479b5b9b999c39
+  chunkSize: 5000
+  indexName: "assertorBlog"
+  fields:
+    - title #必须配置
+    - path #必须配置
+    - categories #推荐配置
+    - content:strip:truncate,0,2000
+    - gallery
+    - photos
+    - tags
 
 feed:
   limit: 20
