@@ -1,10 +1,13 @@
 ---
 title: 多线程与高并发学习笔记（一）
-author: 陈世哲
+author: assertor
 top: true
-categories: java多线程
+categories: 
+   -java
+   -多线程
 tags: 多线程
-sticky: true
+sticky: false
+top: true
 abbrlink: 5868
 date: 2020-4-5 11:25:21
 ---
