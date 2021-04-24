@@ -1,10 +1,9 @@
 title: 深入理解mysql数据库索引及其应用场景
 date: 2021-04-24 10:30:00
-categories:
- - 数据库
- - mysql索引
 sticky: true
-top:true
+top: true
+categories: 
+ - [数据库, mysql索引]
 ---
 > 前言：在数据库中我们最常见的操作就是查询，所以查询的效率高与否很大程度上影响了程序的性能，
 而合理的运用索引能够使我们的查询效率更高，提高程序的运行速度
