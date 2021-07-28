@@ -2,8 +2,6 @@
 title: 使用MarkDown编辑器写博客
 author: 陈世哲
 top: true
-cover: true
-img: 'http://47.103.107.233:8088/cover.jpg'
 categories: 工具
 tags: MarkDown
 abbrlink: 5868
